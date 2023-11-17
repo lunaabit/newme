@@ -38,7 +38,7 @@ jobs:
 
     - run: Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
 
-    - run: Set-LocalUser -Name "mekabiz" -Password (ConvertTo-SecureString -AsPlainText "N3ly4ta2" -Force)
+    - run: Set-LocalUser -Name "Runneradmin" -Password (ConvertTo-SecureString -AsPlainText "N3ly4ta2" -Force)
 
     - name: Create Tunnel
 
